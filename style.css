@@ -38,8 +38,6 @@ body {
   background-color: #04AA6D;
   color: white;
 }
-</style>
-}
 
 .box{
   width: 100px;
@@ -59,7 +57,23 @@ body {
     flex-wrap: wrap;
     padding: 0 4px;
   }
+
   
+.topimage a.container:hover{
+  opacity: 1;
+  display: block;
+  background-color: #ddd;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.topimage a.active {
+  background-color: #04AA6D;
+  color: white;
+
+
 h1,
 h2,
 h3,
